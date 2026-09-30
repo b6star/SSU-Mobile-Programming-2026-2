@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/mp05" />
+            <option value="$PROJECT_DIR$/mp05/mp0501" />
+            <option value="$PROJECT_DIR$/mp05/mp0502" />
+            <option value="$PROJECT_DIR$/mp05/mp0503" />
+            <option value="$PROJECT_DIR$/mp05/mp0504" />
+            <option value="$PROJECT_DIR$/mp05/mp0505" />
+            <option value="$PROJECT_DIR$/mp05/mp0506" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
