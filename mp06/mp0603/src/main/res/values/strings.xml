@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mp0603</string>
+    <string name="title">FrameLayout 실습</string>
+    <string name="character">꾸미기 캐릭터</string>
+    <string name="pink">분홍 드레스</string>
+    <string name="green">초록 드레스</string>
+    <string name="purple">보라 드레스</string>
+    <string name="crown1Button">작은 왕관</string>
+    <string name="crown2Button">큰 왕관</string>
+    <string name="necklace1Button">하트 목걸이</string>
+    <string name="necklace2Button">진주 목걸이</string>
+    <string name="reset">다시하기</string>
+</resources>

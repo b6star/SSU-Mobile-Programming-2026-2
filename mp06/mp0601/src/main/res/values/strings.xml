@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mp0601</string>
+    <string name="title_text">ConstraintLayout 실습</string>
+    <string name="diceleft_contentdescription">왼쪽 주사위</string>
+    <string name="diceright_contentdescription">오른쪽 주사위</string>
+    <string name="answer_hint">합계는?</string>
+    <string name="answer_contentdescription">주사위 합계</string>
+    <string name="check_text">결과보기</string>
+</resources>

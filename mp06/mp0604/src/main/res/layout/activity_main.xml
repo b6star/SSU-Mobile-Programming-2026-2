@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:stretchColumns="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="#709D3C"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+        
+
+        <EditText
+        
+
+            android:id="@+id/turtleAnswer"
+        
+
+            android:layout_width="58dp"
+        
+
+            android:layout_height="58dp"
+        
+
+            android:background="@drawable/bg4_4"
+        
+
+            android:inputType="number"
+        
+
+            android:maxLength="2"
+        
+
+            android:selectAllOnFocus="true"
+        
+
+            android:gravity="center"
+        
+
+            android:textSize="20sp"
+        
+
+            android:contentDescription="@string/turtleAnswer"
+        
+
+            android:importantForAutofill="no"/>
+        
+
+        <ImageView
+        
+
+            android:layout_width="0dp"
+        
+
+            android:layout_height="65dp"
+        
+
+            android:layout_weight="1"
+        
+
+            android:layout_marginStart="12dp"
+        
+
+            android:src="@drawable/turtle"
+        
+
+            android:scaleType="fitCenter"
+        
+
+            android:contentDescription="@string/turtle"/>
+        
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+        
+
+        <EditText
+        
+
+            android:id="@+id/fishAnswer"
+        
+
+            android:layout_width="58dp"
+        
+
+            android:layout_height="58dp"
+        
+
+            android:background="@drawable/bg4_4"
+        
+
+            android:inputType="number"
+        
+
+            android:maxLength="2"
+        
+
+            android:selectAllOnFocus="true"
+        
+
+            android:gravity="center"
+        
+
+            android:textSize="20sp"
+        
+
+            android:contentDescription="@string/fishAnswer"
+        
+
+            android:importantForAutofill="no"/>
+        
+
+        <ImageView
+        
+
+            android:layout_width="0dp"
+        
+
+            android:layout_height="65dp"
+        
+
+            android:layout_weight="1"
+        
+
+            android:layout_marginStart="12dp"
+        
+
+            android:src="@drawable/fish"
+        
+
+            android:scaleType="fitCenter"
+        
+
+            android:contentDescription="@string/fish"/>
+        
+
+    </TableRow>
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check"
+        android:backgroundTint="#1CB6C9"
+        android:textColor="#FFFFFF"/>
+</TableLayout>

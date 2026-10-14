@@ -1,0 +1,366 @@
+<?xml version="1.0" ?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+    
+
+    <LinearLayout
+    
+
+        android:layout_width="match_parent"
+    
+
+        android:layout_height="wrap_content"
+    
+
+        android:orientation="vertical">
+        
+
+        <TextView
+        
+
+            android:layout_width="match_parent"
+        
+
+            android:layout_height="wrap_content"
+        
+
+            android:text="@string/title"
+        
+
+            android:textColor="#709D3C"
+        
+
+            android:textStyle="bold|italic"
+        
+
+            android:textSize="20sp"
+        
+
+            android:layout_marginBottom="24dp"/>
+        
+
+        <LinearLayout
+        
+
+            android:layout_width="match_parent"
+        
+
+            android:layout_height="wrap_content"
+        
+
+            android:orientation="horizontal"
+        
+
+            android:gravity="center_horizontal"
+        
+
+            android:baselineAligned="false">
+            
+
+            <LinearLayout
+            
+
+                android:layout_width="159dp"
+            
+
+                android:layout_height="wrap_content"
+            
+
+                android:orientation="vertical">
+                
+
+                <FrameLayout
+                
+
+                    android:layout_width="159dp"
+                
+
+                    android:layout_height="302dp"
+                
+
+                    android:contentDescription="@string/character">
+                    
+
+                    <ImageView
+                    
+
+                        android:id="@+id/character"
+                    
+
+                        android:layout_width="159dp"
+                    
+
+                        android:layout_height="274dp"
+                    
+
+                        android:layout_gravity="top|center_horizontal"
+                    
+
+                        android:layout_marginTop="24dp"
+                    
+
+                        android:src="@drawable/body"
+                    
+
+                        android:scaleType="fitXY"
+                    
+
+                        android:visibility="visible"
+                    
+
+                        android:importantForAccessibility="no"/>
+                    
+
+                    <ImageView
+                    
+
+                        android:id="@+id/dress"
+                    
+
+                        android:layout_width="156dp"
+                    
+
+                        android:layout_height="173dp"
+                    
+
+                        android:layout_gravity="top|center_horizontal"
+                    
+
+                        android:layout_marginTop="126dp"
+                    
+
+                        android:src="@drawable/dress1"
+                    
+
+                        android:scaleType="fitXY"
+                    
+
+                        android:visibility="invisible"
+                    
+
+                        android:importantForAccessibility="no"/>
+                    
+
+                    <ImageView
+                    
+
+                        android:id="@+id/necklace"
+                    
+
+                        android:layout_width="154dp"
+                    
+
+                        android:layout_height="31dp"
+                    
+
+                        android:layout_gravity="top|center_horizontal"
+                    
+
+                        android:layout_marginTop="123dp"
+                    
+
+                        android:src="@drawable/necklace1"
+                    
+
+                        android:scaleType="fitXY"
+                    
+
+                        android:visibility="invisible"
+                    
+
+                        android:importantForAccessibility="no"/>
+                    
+
+                    <ImageView
+                    
+
+                        android:id="@+id/crown"
+                    
+
+                        android:layout_width="156dp"
+                    
+
+                        android:layout_height="33dp"
+                    
+
+                        android:layout_gravity="top|center_horizontal"
+                    
+
+                        android:layout_marginTop="5dp"
+                    
+
+                        android:src="@drawable/crown1"
+                    
+
+                        android:scaleType="fitXY"
+                    
+
+                        android:visibility="invisible"
+                    
+
+                        android:importantForAccessibility="no"/>
+                    
+
+                </FrameLayout>
+                
+
+                <LinearLayout
+                
+
+                    android:layout_width="match_parent"
+                
+
+                    android:layout_height="wrap_content"
+                
+
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/crown1Button"
+                        android:layout_width="72dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/crown1"
+                        android:scaleType="fitCenter"
+                        android:padding="2dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="@string/crown1Button"/>
+                    <ImageButton
+                        android:id="@+id/crown2Button"
+                        android:layout_width="72dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/crown2"
+                        android:scaleType="fitCenter"
+                        android:padding="2dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="@string/crown2Button"/>
+                </LinearLayout>
+                
+
+                <LinearLayout
+                
+
+                    android:layout_width="match_parent"
+                
+
+                    android:layout_height="wrap_content"
+                
+
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/necklace1Button"
+                        android:layout_width="72dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/necklace1"
+                        android:scaleType="fitCenter"
+                        android:padding="2dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="@string/necklace1Button"/>
+                    <ImageButton
+                        android:id="@+id/necklace2Button"
+                        android:layout_width="72dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/necklace2"
+                        android:scaleType="fitCenter"
+                        android:padding="2dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="@string/necklace2Button"/>
+                </LinearLayout>
+                
+
+            </LinearLayout>
+            
+
+            <LinearLayout
+            
+
+                android:layout_width="0dp"
+            
+
+                android:layout_weight="1"
+            
+
+                android:layout_height="wrap_content"
+            
+
+                android:orientation="vertical"
+            
+
+                android:gravity="center_horizontal">
+                
+
+                <ImageButton
+                
+
+                    android:id="@+id/pink"
+                
+
+                    android:layout_width="112dp"
+                
+
+                    android:layout_height="138dp"
+                
+
+                    android:src="@drawable/dress1"
+                
+
+                    android:scaleType="fitCenter"
+                
+
+                    android:padding="2dp"
+                
+
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                
+
+                    android:contentDescription="@string/pink"/>
+                <ImageButton
+                    android:id="@+id/green"
+                    android:layout_width="112dp"
+                    android:layout_height="138dp"
+                    android:src="@drawable/dress2"
+                    android:scaleType="fitCenter"
+                    android:padding="2dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/green"/>
+                <ImageButton
+                    android:id="@+id/purple"
+                    android:layout_width="112dp"
+                    android:layout_height="138dp"
+                    android:src="@drawable/dress3"
+                    android:scaleType="fitCenter"
+                    android:padding="2dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/purple"/>
+                
+
+            </LinearLayout>
+        </LinearLayout>
+        
+
+        <Button
+        
+
+            android:id="@+id/reset"
+        
+
+            android:layout_width="match_parent"
+        
+
+            android:layout_height="wrap_content"
+        
+
+            android:text="@string/reset"
+        
+
+            android:backgroundTint="#1CB6C9"
+        
+
+            android:textColor="#FFFFFF"/>
+        
+
+    </LinearLayout>
+</ScrollView>
