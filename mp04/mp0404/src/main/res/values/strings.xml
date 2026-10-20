@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mp0404</string>
+    <string name="title">TableLayout 실습</string>
+    <string name="turtleAnswer">거북이 수 입력</string>
+    <string name="fishAnswer">물고기 수 입력</string>
+    <string name="turtle">거북이 2마리</string>
+    <string name="fish">물고기 5마리</string>
+    <string name="check">결과보기</string>
+</resources>

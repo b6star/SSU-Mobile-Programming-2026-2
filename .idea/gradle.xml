@@ -9,13 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/mp05" />
-            <option value="$PROJECT_DIR$/mp05/mp0501" />
-            <option value="$PROJECT_DIR$/mp05/mp0502" />
-            <option value="$PROJECT_DIR$/mp05/mp0503" />
-            <option value="$PROJECT_DIR$/mp05/mp0504" />
-            <option value="$PROJECT_DIR$/mp05/mp0505" />
-            <option value="$PROJECT_DIR$/mp05/mp0506" />
+            <option value="$PROJECT_DIR$/mp03" />
+            <option value="$PROJECT_DIR$/mp03/mp0301" />
+            <option value="$PROJECT_DIR$/mp03/mp0302" />
+            <option value="$PROJECT_DIR$/mp03/mp0303" />
+            <option value="$PROJECT_DIR$/mp03/mp0304" />
+            <option value="$PROJECT_DIR$/mp03/mp0305" />
+            <option value="$PROJECT_DIR$/mp03/mp0306" />
           </set>
         </option>
       </GradleProjectSettings>

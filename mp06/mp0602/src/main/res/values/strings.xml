@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">mp0602</string>
-    <string name="title">LinearLayout 실습</string>
-    <string name="picture">고양이 그림: 왼쪽보다 오른쪽의 고양이가 더 많습니다</string>
-    <string name="greater">왼쪽이 더 많음</string>
-    <string name="less">오른쪽이 더 많음</string>
-    <string name="equal">양쪽이 같음</string>
-</resources>
